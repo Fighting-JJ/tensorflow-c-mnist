@@ -129,8 +129,6 @@ Status ReadTensorFromImageFile(const string& file_name, const int input_height,
 int main(int argc, char** argv )
 {
 
-
-
   Session* session;
   Status status = NewSession(SessionOptions(), &session);//创建新会话Session
 
